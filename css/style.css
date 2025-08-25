@@ -1,0 +1,94 @@
+:root {
+  --main-bg-color: brown;
+  font-size: clamp(0.9375rem, 0.9119rem + 0.1136vw, 1rem);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    text-decoration: none; /* remove o sublinhado dos links */
+    color: black; /* altera a cor de todos os links das páginas */
+}
+
+/* 
+////////////////////////////////////////////////HEADER///////////////////////////////////////////////
+ */
+
+ header{
+  padding: 5vw 10vw 5vw 10vw;
+  & nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & ul{
+      display: flex;
+      & li{
+        margin: 0px 10px 0px 10px;
+        position: relative;
+        & ul{
+          display: none;
+        }
+      }
+      & li:hover ul{
+        display: block;
+        position: absolute;
+      };
+    }
+  }
+ }
+ header h1{
+  font-weight: bold;
+  font-size: 2rem;
+ }
+ header nav ul li.atual a{
+  color: #FB2E86;
+ }
+ header a{
+  color: #0D0E43;
+ }
+ /* banner */
+ section.banner{
+  display: flex;
+  padding: 5vw 10vw 5vw 10vw;
+  background-color: #F2F0FF;
+ }
+ section.banner h3{
+  color: #FB2E86;
+  font-weight: bold;
+ }
+ section.banner h2{
+  font-size: 4rem;
+  font-weight: bold;
+ }
+ section.banner p{
+ color: #8A8FB9;
+ margin: 15px 0;
+ }
+ section.banner button{
+  background-color: #FB2E86;
+  color: white;
+  padding: 15px 35px 15px 35px;
+  margin: 4vw 0;
+  border-radius: 2px;
+ }
+ section.banner div.textos{
+  padding-right: 4vw;
+ }
+ /* PRODUTOS */
+ section.Products{
+  padding: 5vw 10vw 5vw 10vw;
+ }
+ section.Products h2{
+  text-align: center;
+  font-size:2vw;
+  font-weight: bold;
+  color: #1A0B5B;
+ }
+ section.Products ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ }
+ section.Products ul li{
+  width: 30%;
+  
+ }
+ 
