@@ -89,6 +89,67 @@ a{
  }
  section.Products ul li{
   width: 30%;
-  
+  margin: 20px 0 0 0;
  }
  
+ /* section.products */
+ section.Products ul li p{
+  background-color: #f7f7f7;
+  text-align: center;
+ }
+ section.Products ul li h3{
+  color: #151875;
+  margin: 15px 0 0 0;
+ }
+ section.Products ul li h3 span{
+  border-bottom:1px solid grey ;
+ }
+
+ /* convite*/
+ section.convite{
+    padding: 5vw 25vw 5vw 25vw;
+    background: url(../src/images/back-section-update.png);
+    text-align: center;
+ }
+ section.convite h2{
+  color: #151875;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 2vw;
+ }
+ section.convite p button{
+  color: #ffffff;
+  background-color: #FB2E86;
+  border-radius: 2px;
+  padding: 1vw 3vw 1vw 3vw;
+  margin-top: 2.5vw;
+ }
+
+ /* .......header.......... */
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 5vw 10vw 5vw 10vw;
+  background-color: #EEEFFB;
+}
+footer div h3{
+  font-size: 2vw;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+footer div p{
+  margin: 15px 0 0 0;
+  color: #8A8FB9;
+}
+footer div h4{
+  font-size: 1vw;
+  font-weight: bold;
+  
+}
+footer div ul li{
+  margin: 1.5vw 0;
+}
+
+footer div ul li a{
+  color: #8A8FB9;
+}
